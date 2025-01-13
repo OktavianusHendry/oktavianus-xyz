@@ -66,7 +66,7 @@
                   <div class="download-loader text-white hidden"></div>
                 </div>
                 <a
-                  href="/src/assets/Resume.pdf"
+                  href="/Resume.pdf"
                   download="Resume.pdf"
                   class="pl-2 text-primary">
                   Download resume</a

@@ -38,4 +38,5 @@ jobs:
             **/tailwind.config.js**
             **/postcss.config.js**
             **/package*.json**
+            !public/*.pdf
           passive: true
