@@ -19,11 +19,6 @@ jobs:
       - name: Build Vue App 🏗️
         run: npm run build
 
-      - name: Clean public_html Before Deploying 🧹
-        run: |
-          echo "Cleaning up old files in cPanel..."
-          lftp -e "rm -rf /public_html/*; bye" -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}
-
       - name: Upload to cPanel 📂
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
