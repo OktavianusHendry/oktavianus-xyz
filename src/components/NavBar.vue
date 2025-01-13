@@ -36,11 +36,11 @@
         class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0">
         <li v-for="item in Menu" :key="item.name">
           <a
-            href="item.href"
+            :href="item.href"
             class="block text-white transition hover:text-primary ease-linear text-2xl md:text-lg"
-            @click="scrollToSection(item.href)"
-            >{{ item.name }}</a
-          >
+            @click="scrollToSection(item.href)">
+            {{ item.name }}
+          </a>
         </li>
       </ul>
     </nav>

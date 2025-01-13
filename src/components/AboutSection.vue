@@ -6,8 +6,8 @@
     </div>
 
     <div
-      class="md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
-      <div data-aos="flip-right">
+      class="overflow-x-hidden md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
+      <div data-aos="fade-right">
         <h2 class="text-4xl font-bold text-white text-left mb-8">
           My Education
         </h2>
@@ -34,7 +34,7 @@
       </div>
       <div
         class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full"
-        data-aos="flip-right">
+        data-aos="fade-left">
         <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">
           More
           <span
