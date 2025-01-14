@@ -103,7 +103,7 @@ const projects = ref([
   {
     id: 1,
     category: "Web Development",
-    image: "src/assets/project.png",
+    image: "public/assets/project.png",
     title: "Personal Portfolio",
     description:
       "You are currently looking at this project. This is a personal portfolio project that was made with Vue 3 and Tailwind CSS that is hosted automatedly using GitHub Action",
@@ -115,7 +115,7 @@ const projects = ref([
   {
     id: 2,
     category: "Web Development",
-    image: "src/assets/multibio.png",
+    image: "public/assets/multibio.png",
     title: "Biodiversity Themed Web",
     description:
       "This is an example web project that was made with simple HTML, CSS, and JavaScript for competition during my internship",
@@ -127,7 +127,7 @@ const projects = ref([
   {
     id: 3,
     category: "Mobile App",
-    image: "src/assets/Pratentik.png",
+    image: "public/assets/Pratentik.png",
     title: "Prathentic Ticketing App",
     description:
       "This project is used for scanning e-tickets for Prathentic Festival 2024",
@@ -139,7 +139,7 @@ const projects = ref([
   {
     id: 4,
     category: "Mobile App",
-    image: "src/assets/safesteps.png",
+    image: "public/assets/safesteps.png",
     title: "SafeSteps",
     description:
       "Part of the 6th-semester group project, this application mainly focuses on integrating IoT devices into mobile application to track elderly activities",
@@ -152,7 +152,7 @@ const projects = ref([
   {
     id: 5,
     category: "Internet of Things",
-    image: "src/assets/iot2-parking.jpg",
+    image: "public/assets/iot2-parking.jpg",
     title: "Smart Parking System",
     description:
       "Part of the 7th-semester group project, this project is made to help people not only find parking spots easily but also book the parking spots for them",
@@ -164,7 +164,7 @@ const projects = ref([
   {
     id: 6,
     category: "Internet of Things",
-    image: "src/assets/rfid_fr.png",
+    image: "public/assets/rfid_fr.png",
     title: "RFID + Face Recognition",
     description:
       "Part of the 4th-semester group project, a system that is made to increase the security of a laptop by combining IoT with Face recognition.",

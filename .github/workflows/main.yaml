@@ -39,5 +39,5 @@ jobs:
             **/postcss.config.js**
             **/package*.json**
             !public/*.pdf
-            !src/assets/**
+            !public/assets/**
           passive: true
