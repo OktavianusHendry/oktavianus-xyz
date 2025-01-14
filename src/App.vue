@@ -8,6 +8,7 @@
     <LatestProjectSection />
     <ContactSection />
     <FooterSection />
+    <BackToTop />
   </div>
 </template>
 
@@ -35,5 +36,8 @@ const ContactSection = defineAsyncComponent(() =>
 );
 const FooterSection = defineAsyncComponent(() =>
   import("@/components/FooterSection.vue")
+);
+const BackToTop = defineAsyncComponent(() =>
+  import("@/components/BackToTop.vue")
 );
 </script>
