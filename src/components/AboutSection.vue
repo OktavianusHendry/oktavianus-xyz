@@ -3,6 +3,8 @@
     <div class="absolute z-0 top-[93rem] inset-x-0 h-64 flex items-start">
       <div
         class="mt-20 h-24 w-64 bg-gradient-to-br from-primary via-secondary blur-2xl to-[#570cac] opacity-20"></div>
+      <div
+        class="mt-[28rem] ml-[28rem] h-24 w-[40rem] bg-gradient-to-br from-primary via-secondary blur-2xl to-[#570cac] opacity-50"></div>
     </div>
 
     <div
@@ -15,7 +17,7 @@
           <div
             v-for="element in education"
             :key="element.id"
-            class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border-[#1f1641]">
+            class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border-[#1f1641] p-4">
             <div class="w-1/4 p-4">
               <img
                 src="https://img.icons8.com/ios-glyphs/60/ffffff/graduation-cap--v1.png"
@@ -52,21 +54,21 @@
         </p>
         <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
           <div
-            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+            class="text-center rounded-xl bg-white/10 backdrop-blur-lg shadow-lg border border-white/20 p-3">
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               1 Year+
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Web Development</p>
           </div>
           <div
-            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+            class="text-center rounded-xl bg-white/10 backdrop-blur-lg shadow-lg border border-white/20 p-3">
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               5+
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Organization</p>
           </div>
           <div
-            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3">
+            class="text-center rounded-xl bg-white/10 backdrop-blur-lg shadow-lg border border-white/20 p-3">
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               10+
             </h3>
